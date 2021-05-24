@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkManagement.API", "ParkM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkManagement.Domain", "ParkManagement.Domain\ParkManagement.Domain.csproj", "{BE449D09-F043-4A9F-923A-5982DA765211}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkManagement.Data", "ParkManagement.Data\ParkManagement.Data.csproj", "{516B93AF-D145-4887-982B-6DF8B93AAB2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BE449D09-F043-4A9F-923A-5982DA765211}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE449D09-F043-4A9F-923A-5982DA765211}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE449D09-F043-4A9F-923A-5982DA765211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516B93AF-D145-4887-982B-6DF8B93AAB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516B93AF-D145-4887-982B-6DF8B93AAB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516B93AF-D145-4887-982B-6DF8B93AAB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516B93AF-D145-4887-982B-6DF8B93AAB2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
