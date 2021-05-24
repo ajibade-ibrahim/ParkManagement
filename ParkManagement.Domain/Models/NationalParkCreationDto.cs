@@ -4,16 +4,13 @@ using ParkManagement.Domain.Validators;
 
 namespace ParkManagement.Domain.Models
 {
-    public class NationalPark
+    public class NationalParkCreationDto
     {
         [CurrentDateLimit(ErrorMessage = "The date created cannot be later than today")]
         public DateTimeOffset? DateCreated { get; set; }
 
         [CurrentDateLimit(ErrorMessage = "The date established cannot be later than today")]
         public DateTimeOffset? DateEstablished { get; set; }
-
-        [Key]
-        public int Id { get; set; }
 
         [Required]
         [MinLength(3)]
