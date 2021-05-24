@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Text;
+﻿using System.Diagnostics.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
-using ParkManagement.Domain.Models;
+using ParkManagement.Domain.Models.Entities;
 
 namespace ParkManagement.Data
 {
