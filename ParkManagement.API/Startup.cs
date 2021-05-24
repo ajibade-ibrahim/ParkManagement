@@ -1,3 +1,4 @@
+using System.Reflection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -40,6 +41,7 @@ namespace ParkManagement.API
             services.AddDbContext<ParksDbContext>(
                 builder => builder.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), sqlServerOptionsAction => sqlServerOptionsAction.MigrationsAssembly("ParkManagement.Data")));
             services.AddControllers();
+            services.AddAutoMapper(Assembly.Load("ParkManagement.Domain"));
         }
     }
 }
