@@ -1,4 +1,4 @@
-﻿using ParkManagement.Domain.Models;
+﻿using ParkManagement.Domain.Models.Entities;
 
 namespace ParkManagement.Data.Repositories.EFCore
 {
